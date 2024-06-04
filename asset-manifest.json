@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PedrovictorSouza/SenoRecord.git/static/css/main.2a90546f.css",
+    "main.js": "/PedrovictorSouza/SenoRecord.git/static/js/main.ebfc323f.js",
+    "static/js/453.a0fcc2b0.chunk.js": "/PedrovictorSouza/SenoRecord.git/static/js/453.a0fcc2b0.chunk.js",
+    "index.html": "/PedrovictorSouza/SenoRecord.git/index.html",
+    "main.2a90546f.css.map": "/PedrovictorSouza/SenoRecord.git/static/css/main.2a90546f.css.map",
+    "main.ebfc323f.js.map": "/PedrovictorSouza/SenoRecord.git/static/js/main.ebfc323f.js.map",
+    "453.a0fcc2b0.chunk.js.map": "/PedrovictorSouza/SenoRecord.git/static/js/453.a0fcc2b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a90546f.css",
+    "static/js/main.ebfc323f.js"
+  ]
+}
