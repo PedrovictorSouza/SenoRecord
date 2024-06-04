@@ -1,0 +1,74 @@
+.artists {
+  padding: 20px;
+  color: #F5F5DC; /* Fonte bege */
+}
+
+.artistContainer {
+  display: flex;
+  flex-wrap: nowrap; /* Não quebrar a linha no modo responsivo */
+  gap: 20px;
+  justify-content: flex-start; /* Certifica que o primeiro item comece à esquerda */
+  overflow-x: auto; /* Habilita o scroll horizontal */
+  scroll-snap-type: x mandatory; /* Habilita o snap */
+  padding-left: 20px; /* Adiciona um padding para o início do scroll */
+}
+
+.artist {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: center;
+  color: #F5F5DC;
+  position: relative;
+  scroll-snap-align: start; /* Alinha cada item para o snap */
+  flex: 0 0 auto; /* Evita que os itens sejam comprimidos */
+}
+
+.artist::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Overlay para melhorar a legibilidade do texto */
+  border-radius: 8px;
+}
+
+.artistContent {
+  position: relative;
+  z-index: 1;
+}
+
+.artist h3 {
+  margin: 10px 0;
+  color: #F5F5DC; /* Fonte bege */
+}
+
+.artist p {
+  margin: 10px 0;
+  color: #F5F5DC; /* Fonte bege */
+}
+
+.artist a {
+  color: #1DB954; /* Cor do Spotify */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.artist a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .artistContainer {
+    flex-wrap: nowrap; /* Não quebrar a linha no modo responsivo */
+  }
+}

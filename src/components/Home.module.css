@@ -1,0 +1,32 @@
+.home {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover; /* Ajusta a imagem para cobrir toda a área da seção */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white; /* Ajusta a cor do texto para ser visível sobre a imagem de fundo */
+  min-height: 50vh; /* Define a altura mínima da seção */
+  max-height: 80vh; /* Define a altura máxima da seção */
+}
+
+.logo {
+  width: 10vw; /* Ajuste conforme necessário */
+  height: auto;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1); /* Ajuste de filtro para SVG */
+}
+
+.logoText {
+  width: 50vw; /* Ajuste conforme necessário */
+  height: auto;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1); /* Ajuste de filtro para SVG */
+}
+
+p {
+  color: white;
+}
