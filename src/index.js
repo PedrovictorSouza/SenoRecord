@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename="/seno-records-app">
+    <Router basename="/SenoRecord">
       <App />
     </Router>
   </React.StrictMode>
